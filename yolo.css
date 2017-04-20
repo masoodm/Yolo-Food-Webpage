@@ -1,0 +1,199 @@
+body {
+	background-color: beige;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: #5A4621;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	margin: 0px;
+
+}
+
+a {
+	text-decoration: none;
+	padding: 15px;
+	float: right;
+	color: #5A4621;
+
+}
+
+a:hover {
+	background-color: beige;
+}
+
+footer {
+	background-color: #2B4F23;
+	padding: 15px;
+	color: white;
+	font-size: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-bottom: 0px;
+}
+
+#under_menu_padding {
+	padding-right: 10%;
+	padding-left: 10%;
+	margin-bottom: 50px;
+}
+
+#hamburger {
+	display: none;
+}
+
+#menu {
+	display: flex;
+	flex-direction: row;
+	background-color: #90A951;
+	justify-content: flex-end;
+	font-size: 10px;
+	align-items: center;
+}
+
+#search_bar {
+	border-radius: 20px;
+	height: 20px;
+	margin-right: 10px;
+}
+
+
+
+#miss {
+	font-size: 26px;
+}
+
+#mission {
+	margin-bottom: 0px;
+}
+
+#donate_button {
+	margin: 0px;
+	background-color: #2B4F23; 
+    border: none;
+    border-radius: 20px;
+    color: white;
+
+    padding: 5px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    float: right;
+}
+
+#slogan {
+	font-size: 36px;
+	text-align: center;
+	font-family: cursive;
+	color: #A39576;
+	float: center;
+	margin-top: 80px;
+}
+
+#images_headline {
+	font-size: 26px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+	align-items: baseline;
+}
+
+
+
+.container {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+	margin-bottom: 10px;
+}
+
+#icon_square {
+	text-align: center;
+}
+
+.icon {
+	width: 90%;
+	margin-bottom: 0px;
+
+}
+
+.icon_text {
+	margin-top: 10px;
+	font-size: 22px;
+}
+
+.button2 {
+	display: none;
+}
+
+
+
+
+@media (max-width: 480px) {
+	#under_menu_padding {
+		padding: 0px;
+		margin-bottom: 10px;
+	}
+	#yee {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	#logo {
+		width: 50%;
+		height: 50%;
+	}
+
+	#hamburger {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-end;
+		right: 0;
+		height: 40px;
+		width: 40px;
+		margin-right: 20px;
+		margin-top: 20px;
+	}
+
+	#menu {
+		display: none;
+	}
+	#miss, #slogan {
+		display: none;
+	}
+
+	#button_to_move {
+		display: none;
+	}
+
+	.button2 {
+		justify-content: center;
+		margin-bottom: 20px;
+		display: flex;
+	}
+
+	#headline_not_to_hide {
+		background-color: #90A951;	
+		width: 100%;
+		text-align: center;
+		color: white;
+		margin-bottom: 25px;
+	}
+
+	.container {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.icon {
+		width: 70%;
+	}
+
+	#donate_button {
+		padding: 10px 40px;
+	}
+}
